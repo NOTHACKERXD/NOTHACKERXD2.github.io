@@ -1,0 +1,59 @@
+
+.vinyl {
+    width: 200px;
+    height: 200px;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 20px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    text-align: center;
+    line-height: 200px;
+    color: #fffefe;
+    position: relative;
+  }
+  
+  .vinyl:hover {
+    transform: scale(1.1);
+  }
+  
+  .vinyl::after {
+    content: attr(data-song);
+    display: block;
+    position: absolute;
+    bottom: -30px; /* Ρυθμίζει την απόσταση του κειμένου από τον δίσκο */
+    width: 100%;
+    left: 0;
+  }
+
+
+  #vinyl1 {
+    background-image: url('vinyl.jpg');
+    /*center the image*/
+    background-position: center;
+    background-size: 130%;
+  }
+  
+  #vinyl2 {
+    background-image: url('vinyl.jpg');
+    background-position: center;
+    background-size: 130%;
+  }
+  
+  #vinyl3 {
+    background-image: url('vinyl.jpg');
+    background-position: center;
+    background-size: 130%;
+  }
+  
+  #vinyl4 {
+    background-image: url('vinyl.jpg');
+    background-position: center;
+    background-size: 130%;
+  }
+  
+  #vinyl5 {
+    background-image: url('vinyl.jpg');
+    background-position: center;
+    background-size: 130%;
+  }
